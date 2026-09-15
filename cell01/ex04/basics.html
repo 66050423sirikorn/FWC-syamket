@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Basics</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            font-size: 48px;
+            text-align: center;
+        }
+
+        .shop-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .shop {
+            width: 50%;
+            text-align: center;
+        }
+
+        .shop img {
+            display: block;
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .shop a {
+            display: block;
+            margin-top: 15px;
+            color: blue;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        hr {
+            margin-top: 40px;
+            border: none;
+            border-top: 2px solid black;
+        }
+
+        .copyright {
+            text-align: right;
+            font-family: monospace;
+            font-style: italic;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Online Shop &amp; Beauty!</h1>
+
+    <div class="shop-container">
+
+        <!-- Watsons อยู่ด้านซ้าย -->
+        <div class="shop">
+            <img
+                src="https://assets.brandinside.asia/uploads/2025/05/Watsons-Mega-Buffet-1.jpg"
+                alt="Watsons store">
+
+            <a
+                href="https://www.watsons.co.th/th/?srsltid=AU7gw4WZrag6alXGJjTOEwxxnC-sBshCeOOaxItvnzA1pCLePLfjHswP"
+                target="_blank"
+                rel="noopener noreferrer">
+                Visit Watsons
+            </a>
+        </div>
+
+        <!-- Boots อยู่ด้านขวา -->
+        <div class="shop">
+            <img
+                src="https://st-th-1.byteark.com/assets.punpro.com/cover-contents/i48294/1667883394050-boots.jpg"
+                alt="Boots store">
+
+            <a
+                href="https://store.boots.co.th/th/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Visit Boots
+            </a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © syamket 2026
+    </p>
+
+</body>
+</html>
+
+

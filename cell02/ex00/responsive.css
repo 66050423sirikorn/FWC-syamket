@@ -1,0 +1,31 @@
+/* ทำให้ตารางครอบคลุมเต็มหน้าจอ 100% */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; /* ลบช่องว่างระหว่างเส้นขอบ */
+    table-layout: fixed; /* บังคับให้ 2 ช่องแบ่งสัดส่วนเท่าๆ กัน และหดตัวตามจอได้ */
+}
+
+td {
+    border: 1px solid black; /* เส้นขอบตาราง */
+    font-size: 2vw; /* ขนาดตัวอักษรจะปรับเล็กลงหรือใหญ่ขึ้นตามขนาดจออัตโนมัติ */
+    font-family: Arial, sans-serif;
+    padding-left: 20px; /* ดันข้อความออกจากขอบซ้ายนิดหน่อยให้เหมือนในรูป */
+}
+
+/* สีพื้นหลังของแต่ละช่อง */
+.watsons { 
+    background-color: #ADD8E6; /* สีฟ้าอ่อน */
+}
+.boots { 
+    background-color: #FFC0CB; /* สีชมพูอ่อน */
+}
+
+

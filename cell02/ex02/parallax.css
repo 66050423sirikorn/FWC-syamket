@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* โครงสร้าง Parallax และจัดข้อความกึ่งกลาง */
+.parallax {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* หัวใจหลักของเอฟเฟกต์ Parallax */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* รูปที่ 1 */
+.img1 {
+    background-image: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1600');
+}
+
+/* รูปที่ 2 */
+.img2 {
+    background-image: url('https://images.unsplash.com/photo-1517849845537-4d257902454a?w=1600');
+}
+
+/* กรอบข้อความตรงกลางภาพ */
+.caption span {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 18px 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* กล่องสีดำคั่นกลาง */
+.black-block {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.black-block h2 {
+    margin: 0 0 15px 0;
+    letter-spacing: 3px;
+}
+
+.black-block p {
+    margin: 0;
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+
+

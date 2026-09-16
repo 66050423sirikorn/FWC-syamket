@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* กรอบการ์ดหลัก */
+.card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 280px;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 20px;
+}
+
+/* ตารางไร้เส้นขอบ (Invisible Table) */
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.profile-table tr,
+.profile-table td {
+    border: none;
+    padding: 6px 0;
+}
+
+/* ปรับขนาดรูปโปรไฟล์ */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ชื่อ Login */
+.login {
+    font-weight: bold;
+    font-size: 18px;
+    color: #111111;
+}
+
+/* คำอธิบาย */
+.description {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* ไอคอนโซเชียล */
+.socials a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+    margin: 0 6px;
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.15);
+}
+
+/* ปุ่ม Contact */
+.contact-btn {
+    background-color: #0055A4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.contact-btn:hover {
+    background-color: #003e7e;
+}
+
